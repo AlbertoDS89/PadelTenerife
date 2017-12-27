@@ -1,17 +1,43 @@
-.logo {
-  background-image: url("imagenes/logo.png");
-  width: 200px;
+.cabecera {
   height: 200px;
+  background: white;
+  display: flex;
+  border-width: 4px;
+  border-style: groove;
+  border-color: black;
+
 }
 
+.logo {
+  background-image: url("../imagenes/logo.png");
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+.social {
+  position: relative;
+  top: 30px;
+  left: -40px;
+}
+
+.twitter {
+  color: white;
+  border-radius: 10%;
+  background: #1dcaff;
+}
+
+.facebook {
+  color: #3B5998;
+  border-radius: 10%;
+}
+
+.youtube {
+  color: #CC181E;
+  border-radius: 10%;
+}
 
 li {
   display: inline;
-margin: 15px;
-}
-
-h1 {
-  background-color: green;
-  color: white;
-  text-align: center;
+  margin: 15px;
 }
