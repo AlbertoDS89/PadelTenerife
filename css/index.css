@@ -1,8 +1,9 @@
 .cabecera {
   height: 200px;
+  width: 100%;
   background: white;
   display: flex;
-  border-width: 4px;
+  border-width: 10px;
   border-style: groove;
   border-color: black;
 
@@ -37,7 +38,14 @@
   border-radius: 10%;
 }
 
+.menu{
+  position: absolute;
+  width: 100%;
+  background: grey;
+}
+
 li {
   display: inline;
   margin: 15px;
+  text-align: center;
 }
