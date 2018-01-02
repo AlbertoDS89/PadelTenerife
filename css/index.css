@@ -1,28 +1,38 @@
-.cuerpo {
-  width: 75%;
-  background: red;
-  margin: auto;
-  border-width: 10px;
-  border-style: groove;
-  border-color: black;
-}
 
-.cabecera {
-  background: white;
+header{
   display: flex;
 }
 
 .logo {
   background-image: url("../imagenes/logo.png");
-  width: 200px;
-  height: 200px;
-  margin: auto;
+  width: 90px;
+  height: 90px;
+}
+
+ nav{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: black;
+  position: relative;
+  top: -16px;
+}
+nav a{
+padding: 20px;
+display: inline-block;
+text-decoration:none;
+transition:all 1s linear;
+}
+
+ nav a:hover{
+background-color: white;
+color: black;
+
 }
 
 .social {
   position: relative;
-  top: 30px;
-  left: -40px;
+
 }
 
 .twitter {
@@ -39,40 +49,4 @@
 .youtube {
   color: #CC181E;
   border-radius: 10%;
-}
-
-.menu{
-  display: flex;
-  justify-content: center;
-  background: black;
-  position: relative;
-  top: -16px;
-
-}
-.menu ul{
-  margin: 0;
-  padding: 0;
-}
-.menu a{
-padding: 20px;
-display: inline-block;
-text-decoration:none;
-transition:all 1s linear;
-}
-
-.menu a:hover{
-background-color: white;
-color: black;
-
-}
-.menu li {
-  display: inline;
-  margin: 0;
-  text-align: center;
-}
-
-.index{
-  width: 50%;
-  height: 50%;
-  background: orange;
 }
