@@ -42,16 +42,32 @@
 }
 
 .menu{
+  display: flex;
+  justify-content: center;
   background: black;
-  height: 60px;
   position: relative;
   top: -16px;
 
 }
+.menu ul{
+  margin: 0;
+  padding: 0;
+}
+.menu a{
+padding: 20px;
+display: inline-block;
+text-decoration:none;
+transition:all 1s linear;
+}
 
-li {
+.menu a:hover{
+background-color: white;
+color: black;
+
+}
+.menu li {
   display: inline;
-  margin: 15px;
+  margin: 0;
   text-align: center;
 }
 
