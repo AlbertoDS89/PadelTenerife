@@ -1,12 +1,15 @@
-.cabecera {
-  height: 200px;
-  width: 100%;
-  background: white;
-  display: flex;
+.cuerpo {
+  width: 75%;
+  background: red;
+  margin: auto;
   border-width: 10px;
   border-style: groove;
   border-color: black;
+}
 
+.cabecera {
+  background: white;
+  display: flex;
 }
 
 .logo {
@@ -39,13 +42,21 @@
 }
 
 .menu{
-  position: absolute;
-  width: 100%;
-  background: grey;
+  background: black;
+  height: 60px;
+  position: relative;
+  top: -16px;
+
 }
 
 li {
   display: inline;
   margin: 15px;
   text-align: center;
+}
+
+.index{
+  width: 50%;
+  height: 50%;
+  background: orange;
 }
