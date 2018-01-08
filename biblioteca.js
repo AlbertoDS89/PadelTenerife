@@ -1,6 +1,7 @@
-var palas = [
+var productos = [
 
     {
+      tipoProducto: 'Palas',
       name: 'Bullpadel Black Dragon 2.0',
       marca: 'Bullpadel',
       precio: '350,00€',
@@ -14,6 +15,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Bullpadel Hack 2018',
       marca: 'Bullpadel',
       precio: '330,00€',
@@ -27,6 +29,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Bullpadel Vertex Control 2017',
       marca: 'Bullpadel',
       precio: '283,00€',
@@ -40,6 +43,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Bullpadel K3 Pro 2016',
       marca: 'Bullpadel',
       precio: '167,00€',
@@ -53,6 +57,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Dunlop Hot Shot Extreme',
       marca: 'Dunlop',
       precio: '300,00€',
@@ -66,6 +71,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Dunlop Hot Shot Elite',
       marca: 'Dunlop',
       precio: '300,00€',
@@ -79,6 +85,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Dunlop Luxury',
       marca: 'Dunlop',
       precio: '180,00€',
@@ -92,6 +99,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Dunlop Fusion 1.4',
       marca: 'Dunlop',
       precio: '250,00€',
@@ -105,6 +113,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Dunlop Nitro',
       marca: 'Dunlop',
       precio: '250,00€',
@@ -118,6 +127,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Head Graphene Touch Delta Hybrid',
       marca: 'Head',
       precio: '290,00€',
@@ -131,6 +141,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Head Graphene XT Delta Pro',
       marca: 'Head',
       precio: '269,95€',
@@ -144,6 +155,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Head Graphene Tornado E+',
       marca: 'Head',
       precio: '189,95€',
@@ -157,6 +169,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Adidas Adipower Carbon Control',
       marca: 'Adidas',
       precio: '365,00€',
@@ -170,6 +183,7 @@ var palas = [
     },
 
     {
+      tipoProducto: 'Palas',
       name: 'Adidas R5',
       marca: 'Adidas',
       precio: '85,00€',
@@ -180,12 +194,10 @@ var palas = [
       temporada: 2016,
       vendidas: 78,
       fotos: ['AdidasR51.jpg', 'AdidasR52.jpg']
-    }
-];
-
-var pelotas = [
+    },
 
     {
+      tipoProducto: 'Pelotas',
       name: 'Pelotas Head Padel Pro',
       marca: 'Head',
       precio: '6,00€',
@@ -197,6 +209,7 @@ var pelotas = [
     },
 
     {
+      tipoProducto: 'Pelotas',
       name: 'Bullpadel Premium Pro',
       marca: 'Bullpadel',
       precio: '4,50€',
@@ -208,6 +221,7 @@ var pelotas = [
     },
 
     {
+      tipoProducto: 'Pelotas',
       name: 'Bolas Nox Stinger',
       marca: 'Nox',
       precio: '6,95€',
@@ -219,6 +233,7 @@ var pelotas = [
     },
 
     {
+      tipoProducto: 'Pelotas',
       name: 'Wilson Pro Padel',
       marca: 'Wilson',
       precio: '4,95€',
@@ -227,13 +242,10 @@ var pelotas = [
       enStock: true,
       vendidas: 378,
       fotos: ['WilsonProPadel.jpg']
-    }
-];
-
-
-var zapatillas = [
+    },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Bullpadel Burton Azul Celeste',
       marca: 'Bullpadel',
       precio: '52,00€',
@@ -246,6 +258,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Bullpadel Burton Gris Oscuro',
       marca: 'Bullpadel',
       precio: '52,00€',
@@ -258,6 +271,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Bullpadel Benka Amarillo Negro 2014',
       marca: 'Bullpadel',
       precio: '89,00€',
@@ -270,6 +284,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Bullpadel Bale Azul Real',
       marca: 'Bullpadel',
       precio: '52,00€',
@@ -282,6 +297,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Head Revolt Pro 2.0 Clay Negro Rojo',
       marca: 'Head',
       precio: '139,95€',
@@ -294,6 +310,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Head Revolt Pro 2.0 Ltd Negro',
       marca: 'Head',
       precio: '145,00€',
@@ -306,6 +323,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Head Lazer Negro Naranja',
       marca: 'Head',
       precio: '64,95€',
@@ -318,6 +336,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Head Revolt Pro Padel Rojo',
       marca: 'Head',
       precio: '124,95€',
@@ -330,6 +349,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Adidas Novak Pro',
       marca: 'Adidas',
       precio: '139,95€',
@@ -342,6 +362,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Adidas Barricade 2017',
       marca: 'Adidas',
       precio: '139,95€',
@@ -354,6 +375,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Adidas Adizero Club Negro',
       marca: 'Adidas',
       precio: '79,95€',
@@ -366,6 +388,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Nike Zoom Vapor 9.5 Tour',
       marca: 'Nike',
       precio: '130,00€',
@@ -378,6 +401,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Nike Zoom Ultra Cly',
       marca: 'Nike',
       precio: '100,00€',
@@ -390,6 +414,7 @@ var zapatillas = [
     },
 
     {
+      tipoProducto: 'Zapatillas',
       name: 'Nike Court Lite Cly',
       marca: 'Nike',
       precio: '55,00€',

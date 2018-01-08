@@ -1,4 +1,7 @@
 
+body{
+  margin:0;
+}
 header{
   display: flex;
   justify-content: center;
@@ -83,8 +86,74 @@ color: black;
   color: #7CFC00;
 }
 
+#producto{
+  display: flex;
+  height: 700px;
+  padding: 70px;
+  background-image: url("../imagenes/FondoDescripcion.jpg");
+}
 
-.social {
+  footer {
+    display: flex;
+    justify-content: center;
+    border-bottom: solid;
+    background-color: white;
+  }
+
+#marcas{
+  display: flex;
+  justify-content: center;
+}
+.head{
+  background-image: url("../imagenes/headlogo.png");
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+}
+
+.bullPadel{
+  background-image: url("../imagenes/bullpadellogo.png");
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+}
+
+.dunlop{
+  background-image: url("../imagenes/dunloplogo.png");
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+
+}
+
+.adidas{
+  background-image: url("../imagenes/adidaslogo.png");
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+}
+
+.nike{
+  background-image: url("../imagenes/nikelogo.png");
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+}
+
+.willson{
+  background-image: url("../imagenes/wilsonlogo.png");
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 160px;
+  padding: 10px;
+}
+
+/*.social {
   position: relative;
 
 }
@@ -104,3 +173,4 @@ color: black;
   color: #CC181E;
   border-radius: 10%;
 }
+*/
