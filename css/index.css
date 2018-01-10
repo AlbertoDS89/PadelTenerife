@@ -61,8 +61,8 @@ color: black;
 
 #caracteristicas{
   display: flex;
-  justify-content: space-around;
-  padding: 100px;
+  text-align: center;
+  padding: 75px;
 }
 
 #caracteristicas h1{
@@ -71,6 +71,8 @@ color: black;
 }
 
 #caracteristicas p{
+  padding-left: 15px;
+  padding-right: 15px;
   font-size: 18px;
   font-family: 'Jura';
 }
@@ -103,6 +105,7 @@ color: black;
 #marcas{
   display: flex;
   justify-content: center;
+  padding: 30px;
 }
 .head{
   background-image: url("../imagenes/headlogo.png");
