@@ -61,6 +61,7 @@ color: black;
 
 #caracteristicas{
   display: flex;
+  justify-content: center;
   text-align: center;
   padding: 75px;
 }
@@ -96,7 +97,7 @@ color: black;
 }
 
   footer {
-    display: flex;
+    display: block;
     justify-content: center;
     border-bottom: solid;
     background-color: white;
@@ -105,58 +106,102 @@ color: black;
 #marcas{
   display: flex;
   justify-content: center;
-  padding: 30px;
+  background-color: #c6afaf;
+  padding: 20px;
 }
 .head{
   background-image: url("../imagenes/headlogo.png");
   background-repeat: no-repeat;
+  opacity: 0.25;
+  transition: all 0.5s linear 0.25s;
   width: 160px;
   height: 160px;
   padding: 10px;
+}
+
+.head:hover{
+opacity: 1;
 }
 
 .bullPadel{
   background-image: url("../imagenes/bullpadellogo.png");
   background-repeat: no-repeat;
+  opacity: 0.25;
+  transition: all 0.5s linear 0.25s;
   width: 160px;
   height: 160px;
   padding: 10px;
+}
+
+.bullPadel:hover{
+opacity: 1;
 }
 
 .dunlop{
   background-image: url("../imagenes/dunloplogo.png");
   background-repeat: no-repeat;
+  opacity: 0.25;
+  transition: all 0.5s linear 0.25s;
   width: 160px;
   height: 160px;
   padding: 10px;
+}
 
+.dunlop:hover{
+opacity: 1;
 }
 
 .adidas{
   background-image: url("../imagenes/adidaslogo.png");
   background-repeat: no-repeat;
+  opacity: 0.25;
+  transition: all 0.5s linear 0.25s;
   width: 160px;
   height: 160px;
   padding: 10px;
+}
+
+.adidas:hover{
+opacity: 1;
 }
 
 .nike{
   background-image: url("../imagenes/nikelogo.png");
   background-repeat: no-repeat;
+  background-position: 0 30px;
+  opacity: 0.25;
+  transition: all 0.5s linear 0.25s;
   width: 160px;
   height: 160px;
   padding: 10px;
+}
+
+.nike:hover{
+opacity: 1;
 }
 
 .willson{
   background-image: url("../imagenes/wilsonlogo.png");
   background-repeat: no-repeat;
+  opacity: 0.25;
+  transition: all 0.5s linear 0.25s;
   width: 160px;
   height: 160px;
   padding: 10px;
 }
 
-/*.social {
+.willson:hover{
+opacity: 1;
+}
+
+.piePagina{
+  display: flex;
+  height: 150px;
+  width: 100%;
+  background-color: black;
+}
+
+social {
   position: relative;
 
 }
@@ -176,4 +221,3 @@ color: black;
   color: #CC181E;
   border-radius: 10%;
 }
-*/
