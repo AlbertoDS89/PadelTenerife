@@ -12,8 +12,9 @@
 //   addImagen(visualizacionProducto, producto.fotos[contador]);
 // }
 
-window.sr = ScrollReveal({ duration: 2000 });
-sr.reveal('.bar', 50);
+$(document).ready(function() {
+  AOS.init();
+});
 
 var options = {
   url: "/PadelTenerife/js/productos.json",

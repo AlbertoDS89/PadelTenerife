@@ -47,8 +47,8 @@ color: black;
   padding: 70px;
   justify-content: space-around;
   background-image: url("../imagenes/FondoDescripcion.jpg");
-  height: 100%;
-  width: 100%;
+
+
 }
 
 .desc1 h1{
@@ -96,9 +96,103 @@ color: black;
 
 #producto{
   display: flex;
-  height: 700px;
+  justify-content: space-around;
+  
   padding: 70px;
   background-image: url("../imagenes/FondoDescripcion.jpg");
+}
+
+.prod1{
+  width: 30%;
+  height:100%;
+}
+
+.prod2{
+  width: 70%;
+  height:100%;
+}
+.hoja-producto{
+  display: flex;
+  padding-top: 2%;
+  flex-direction: column;
+  background-color: white;
+  border: solid;
+
+}
+
+.hoja-producto h1{
+  margin: auto;
+  color: black;
+  font-family: 'Monoton';
+
+}
+
+.info{
+  display: flex;
+}
+
+.lightbox{
+  width: 30%;
+  height:100%;
+}
+
+.datos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-right: 5%;
+}
+.precio p{
+  font-family: 'Jura';
+  font-size: 20px;
+}
+
+.preciodesc p{
+  font-family: 'Jura';
+  font-size: 20px;
+}
+
+.marca p{
+  font-family: 'Jura';
+  font-size: 20px;
+}
+
+.year p{
+  font-family: 'Jura';
+  font-size: 20px;
+}
+
+.tipo p{
+  font-family: 'Jura';
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+.stock p{
+  font-family: 'Jura';
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+.unidRest p{
+  font-family: 'Jura';
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+.unidVend p{
+  font-family: 'Jura';
+  font-size: 20px;
+  padding-right: 10%;
+}
+
+.desc{
+  padding: 5%;
+  width: 90%;
+  font-family: 'Jura';
+  text-align: center;
+  font-size: 16px;
+  padding-right: 10%;
 }
 
   footer {
