@@ -11,7 +11,7 @@
       "enStock": true,
       "temporada": 2018,
       "vendidas": 20,
-      "icon": "icon1.png",
+      "icon": "imagenes/icon1.png",
       "fotos": ["BullpadelBlackDragon1.jpg", "BullpadelBlackDragon2.jpg", "BullpadelBlackDragon3.jpg"]
     },
 
@@ -26,7 +26,7 @@
       "enStock": true,
       "temporada": 2018,
       "vendidas": 44,
-            "icon": "icon2.png",
+            "icon": "imagenes/icon2.png",
       "fotos": ["BullpadelHack20181.jpg", "BullpadelHack20182.jpg", "BullpadelHack20183.jpg"]
     },
 
@@ -41,7 +41,7 @@
       "enStock": false,
       "temporada": 2017,
       "vendidas": 167,
-            "icon": "icon3.png",
+            "icon": "imagenes/icon3.png",
       "fotos": ["BullpadelVertexControl20171.jpg", "BullpadelVertexControl20172.jpg"]
     },
 
