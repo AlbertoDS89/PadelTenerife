@@ -11,3 +11,30 @@
 // for (contador=0; contador<numeroImagenes; contador ++){
 //   addImagen(visualizacionProducto, producto.fotos[contador]);
 // }
+
+window.sr = ScrollReveal({ duration: 2000 });
+sr.reveal('.bar', 50);
+
+var options = {
+  url: "productos.json",
+  getValue: "name",
+  cssClasses: "item-name",
+  template: {
+    type: "iconLeft",
+    fields: {
+      iconSrc: "icon"
+    }
+  },
+
+  list: {
+    showAnimation: {
+      type: "slide"
+    },
+    hideAnimation: {
+      type: "slide"
+    }
+  }
+
+};
+
+$("#buscador").easyAutocomplete(options);
