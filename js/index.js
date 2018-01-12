@@ -16,7 +16,7 @@ window.sr = ScrollReveal({ duration: 2000 });
 sr.reveal('.bar', 50);
 
 var options = {
-  url: "productos.json",
+  url: "/PadelTenerife/js/productos.json",
   getValue: "name",
   cssClasses: "item-name",
   template: {
