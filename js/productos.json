@@ -27,7 +27,7 @@
      "enStock": true,
      "temporada": 2018,
      "vendidas": 44,
-     "icon": "imagenes/icon2.png",
+     "icon": "imagenes/iconBullpadelHack20181Min_result.jpg",
      "fotos": ["BullpadelHack20181.jpg", "BullpadelHack20182.jpg", "BullpadelHack20183.jpg"],
      "descripcion": "Una de las palas revelación de esta temporada ¡La nueva pala del mejor jugador español del World Pádel Tour, Paquito Navarro! BULLPADEL HACK, La pala de Paquito Navarro. La BullPadel Hack ha sido creada para otorgarnos el máximo de potencia sin pérdida de control, teniendo entre nuestras manos una pala manejable que nos ayudará a imprimir la mayor velocidad a nuestro juego. Un diseño elegante en negro y dorado que enamorará."
    },
@@ -43,7 +43,7 @@
      "enStock": false,
      "temporada": 2017,
      "vendidas": 167,
-     "icon": "imagenes/icon3.png",
+     "icon": "imagenes/iconBullpadelVertexControl20171_result.jpg",
      "fotos": ["BullpadelVertexControl20171.jpg", "BullpadelVertexControl20172.jpg"],
      "descripcion": "Bullpadel Vertex Control 2017, pala de control de una de las mejores palas Bullpadel. Es una pala de gran control, muy buena potencia y un diseño espectacular. Pala diseñada pensando en jugadores de nivel avanzado o profesional. Jugadores que buscan control en sus golpes con un excepcional rendimiento en potencia. Pero también es una pala que por su amplio punto dulce y buen control es ideal para jugadores de nivel medio que buscan una pala que les permita evolucionar en su juego."
    },
@@ -59,6 +59,7 @@
      "enStock": true,
      "temporada": 2016,
      "vendidas": 58,
+     "icon": "imagenes/iconBullpadelK3Pro20161_result.jpg",
      "fotos": ["BullpadelK3Pro20161.jpg", "BullpadelK3Pro20162.jpg"],
      "descripcion": "La K3 Pro es una pala fabricada con marco de carbono aumentando su resistencia ante golpes y roces. Posee una goma de EVA en color negro, llamada BlackEva por BullPadel, una goma que ayuda a mejorar la potencia de la pala. Es una de las palas más vendidas y de gran calidad del catálogo bullpadel 2016 con la que se ha buscado máxima eficacia en los golpes y durabilidad al fabricar con materiales de calidad. BullPadel fue una de las marcas pioneras en fabricar materiales para jugar al pádel, y con varios jugadores entre sus filas, lo que hace ver la calidad de esta marca."
    },
@@ -74,6 +75,7 @@
      "enStock": true,
      "temporada": 2017,
      "vendidas": 27,
+     "icon": "imagenes/iconDunlopHotShotExtreme_result.jpg",
      "fotos": ["DunlopHotShotExtreme.jpg"],
      "descripcion": "Pala Dunlop Hot Shot Extreme es una pala de gran potencia y excelente control diseñada para jugadores de nivel avanzado que buscan máxima potencia y control en su juego. La Hot Shot Extreme incorpora la última tecnología Dunlop ya que se ha fabricado con materiales de gran calidad."
    },
@@ -89,6 +91,7 @@
      "enStock": true,
      "temporada": 2017,
      "vendidas": 45,
+     "icon": "imagenes/iconDunlopHotShotElite1_result.jpg",
      "fotos": ["DunlopHotShotElite1.jpg", "DunlopHotShotElite2.jpg", "DunlopHotShotElite3.jpg"],
      "descripcion": "La nueva Duplop Hot Shot Elite es una pala ligera de control, creada en forma redonda, favoreciendo un amplio punto dulce, ideal para buenas salidas de bola. Su peso va de los 340 a los 360 gramos. Fabricada para jugadores de todos los niveles que tengan buena técnica para realizar multitud de efectos precisos y controlados. Esta pala cuenta también con una buena potencia. Estética moderna y urbana con un toque juvenil y rebelde en color naranja y blanco. Realizada en forma redondeada, para conferir un excelente control y mejorar el manejo de la pala. Fibra de vidrio resistente y de calidad en las caras de la pala. El marco está hecho de grafito. Núcleo interior de goma EVA, proporcionando fluidez y confort a tus golpeos controlados. Puente abierto para reducir peso. Duplop Hot Shot Elite es una pala con un diseño único y transgresor. Cómoda con gran control y buena potencia."
    },
@@ -104,6 +107,7 @@
      "enStock": true,
      "temporada": 2014,
      "vendidas": 129,
+     "icon": "imagenes/iconDunlopLuxury1_result.jpg",
      "fotos": ["DunlopLuxury1.jpg", "DunlopLuxury2.jpg"],
      "descripcion": "La Dunlop Luxury es una pala que ofrece potencia sobre la bola, una pala con muy buena potencia y un buen control, una pala dirigida a jugadores que les gusta pegar fuerte a la bola pero sin renunciar al control. Ha sido fabricada en forma híbrida oversize, con un peso que oscila entre los 360 y los 375 gramos, fabricada en 38 milímetros. Para conseguir una pala con pocas vibraciones Dunlop ha insertado caucho en el marco y el puente, este caucho absorbe muy bien las vibraciones con lo que esta pala es una pala recomendable para aquellos jugadores que tienen problemas y juegan con dolor en el codo."
    },
@@ -119,6 +123,7 @@
      "enStock": false,
      "temporada": 2014,
      "vendidas": 145,
+     "icon": "imagenes/iconDunlopFusion1_result.jpg",
      "fotos": ["DunlopFusion1.jpg", "DunlopFusion2.jpg", "DunlopFusion3.jpg"],
      "descripcion": "La Dunlop Fusion 1.4 ha sido creada para jugadores de nivel alto o competición. Se ha fabricado con la cabeza en forma de lágrima invertida para aumentar la potencia en golpes como el remate. Su balance es medio, lo que aumenta el equilibrio notándolo en golpes que requieren más control como las voleas y haciéndola así una pala muy manejable. Tanto las superficies de las caras como el marco se han fabricado en carbono, un material muy resistente y flexible, lo que junto a su núcleo interior compuesto en goma EVA Super Flex ayuda a absorber los impactos y tener un tacto inmejorable en cada golpe."
    },
@@ -134,6 +139,7 @@
      "enStock": true,
      "temporada": 2017,
      "vendidas": 45,
+     "icon": "imagenes/iconDunlopNitro1_result.jpg",
      "fotos": ["DunlopNitro1.jpg", "DunlopNitro2.jpg", "DunlopNitro3.jpg"],
      "descripcion": "La Dunlop Nitro es una pala cómoda manejable y de gran calidad. Incorpora la última tecnología de Dunlop. Fabricada en forma redonda y con un balance bajo. Diseñada para hombres exigentes que buscan favorecer su juego defensivo y perfeccionar sus efectos y boleas. Ideada para juegos avanzados o profesionales, aunque se adapta a todos los niveles de juego. Su peso va de los 360 y 380 gramos y un grosor de 38 mm. Esta pala cuenta con las caras realizadas en fibra de vidrio y el marco en fibra de carbono.  Además cuenta con un punto blando, gracias a su goma EVA,  que proporciona comodidad y confort a tus golpeos."
    },
@@ -149,6 +155,7 @@
      "enStock": true,
      "temporada": 2017,
      "vendidas": 57,
+     "icon": "imagenes/iconHeadGrapheneTouchDeltaHybrid1_result.jpg",
      "fotos": ["HeadGrapheneTouchDeltaHybrid1.jpg", "HeadGrapheneTouchDeltaHybrid2.jpg"],
      "descripcion": "Fabricada en su particular molde de diamante. Así llega a nuestras manos la espectacular pala de pádel Head Graphene Touch Delta Hybrid, actualmente utilizada por el 13 veces número uno del mundo Fernando Belasteguín y lista para ser usada por todo aquel que quiere más que comodidad y se inclina hacía lo versátil, lo útil y lo ligero para ganar cualquier partido. Una pala duradera y compleja que no ahorra esfuerzos en dar lo mejor de sí."
    },
@@ -164,6 +171,7 @@
      "enStock": true,
      "temporada": 2016,
      "vendidas": 97,
+     "icon": "imagenes/iconHeadGrapheneXTDeltaPro1_result.jpg",
      "fotos": ["HeadGrapheneXTDeltaPro1.jpg", "HeadGrapheneXTDeltaPro2.jpg"],
      "descripcion": "La pala de pádel HEAD GRAPHENE XT DELTA PRO WITH CB este modelo de Head es la raqueta con la que ha jugado todo el 2016 el gran Fernando Belasteguin, el jugador número 1 del ranking masculino de World Padel Tour, un jugador que nos deleita cada partido con su estupenda clase y estilo de juego. Este gran jugador ha diseñado este modelo a su gusto y con los materiales elegidos por él."
    },
@@ -179,6 +187,7 @@
      "enStock": false,
      "temporada": 2016,
      "vendidas": 147,
+     "icon": "imagenes/iconHeadGrapheneTornadoE+1_result.jpg",
      "fotos": ["HeadGrapheneTornadoE+1.jpg", "HeadGrapheneTornadoE+2.jpg"],
      "descripcion": "Si estás buscando una pala de pádel que puedas controlar la bola en cualquier tipo de situación, la nueva Head Graphene Tornado E+ muestra un rendimiento perfecto gracias a su conjunto de características y sistemas avanzados. Es una pala dirigida a un jugador de nivel avanzado que busca una pala de excepcional comportamiento en control, pero además necesita una pala que no se quede corta en potencia cuando vayamos a golpear fuerte a la bola. Se ha fabricado en forma de lágrima, con peso que va de los 365 a los 386 gramos, con perfil de 38 milímetros."
    },
@@ -194,6 +203,7 @@
      "enStock": true,
      "temporada": 2016,
      "vendidas": 22,
+     "icon": "imagenes/iconAdidasAdipowerCarbonControl1_result.jpg",
      "fotos": ["AdidasAdipowerCarbonControl1.jpg", "AdidasAdipowerCarbonControl2.jpg", "AdidasAdipowerCarbonControl3.jpg"],
      "descripcion": "Adidas Adipower Carbon Ctrl, Adidas lanza una de sus mejores palas, dirigida a un jugador que disfruta con golpes de control, es una pala con unos acabados excepcionales. Sin duda una de las mejores palas creadas por adidas Padel. Es una pala que podemos recomendar a jugadores de gran nivel, tanto jugadores profesionales, como aficionados, pero además también la disfrutarán jugadores de nivel medio que buscan una pala con la que seguir mejorando su juego, es una pala de fácil adaptación y un control excepcional."
    },
@@ -209,6 +219,7 @@
      "enStock": true,
      "temporada": 2016,
      "vendidas": 78,
+     "icon": "imagenes/iconAdidasR51_result.jpg",
      "fotos": ["AdidasR51.jpg", "AdidasR52.jpg"],
      "descripcion": "La Adidas R5 está pensada para jugadores de nivel intermedio que quieren seguir evolucionando en su técnica con una pala de máximo control. Su superficie está fabricada 100% en fibra de vidrio, lo que aporta gran confort durante el juego en la pista. Diseño y calidad Adidas a un precio inmejorable. Es una pala que recomendamos a jugadores de nivel intermedio. Jugadores que buscan un gran rendimiento en todas las situaciones de juego. Con la que mejorar y progresar. Pala en forma de lágrima, con perfil de 38 milímetros. Su peso puede ir de los 360 a los 380 gramos."
    },
@@ -222,6 +233,7 @@
      "cantidad": 80,
      "enStock": true,
      "vendidas": 620,
+     "icon": "imagenes/iconPelotasHeadPadelPro_result.jpg",
      "fotos": ["PelotasHeadPadelPro.jpg"],
      "descripcion": "Los jugadores profesionales han testeado varios modelos de las Pelotas Padel Pro de HEAD para decidirse finalmente por el tipo de bolas que mejor se adecuaban a las características de nuestro deporte. Como resultado final hemos obtenido unas pelotas profesionales de máximo rendimiento. Unas bolas que se controlan bien a la vez que se mantienen vivas durante varios partidos."
    },
@@ -235,6 +247,7 @@
      "cantidad": 50,
      "enStock": true,
      "vendidas": 416,
+     "icon": "imagenes/iconBullpadelPremiumPro_result.jpg",
      "fotos": ["BullpadelPremiumPro.jpg"],
      "descripcion": "Pelotas Bullpadel Gold, bolas con la mejor calidad Bullpadel, fabricadas para las pistas de pádel, son bolas de bote homogéneo y regular, destacan por su durabilidad. Ideales para todo tipo de superficies."
    },
@@ -248,6 +261,7 @@
      "cantidad": 97,
      "enStock": true,
      "vendidas": 578,
+     "icon": "imagenes/iconBolasNoxStinger_result.jpg",
      "fotos": ["BolasNoxStinger.jpg"],
      "descripcion": "Pelotas Nox de pádel de alta calidad, pensadas para competiciones y profesionales. Presurizadas, elásticas y flexibles, se adaptan al juego de manera cómoda y resistente."
    },
@@ -261,6 +275,7 @@
      "cantidad": 197,
      "enStock": true,
      "vendidas": 378,
+     "icon": "imagenes/iconWilsonProPadel_result.jpg",
      "fotos": ["WilsonProPadel.jpg"],
      "descripcion": "Es la nueva bola de Wilson fabricada con materiales de primera calidad. Proporciona alto rendimiento en juego, durabilidad y visibilidad. Estas pelotas de wilson han sido creadas para nivel profesional, pero cada vez más clubes las utilizan en sus clases de pádel gracias al excelente precio que puedes encontrarlas, sobre todo si comprar un cajón wilson padel pro."
    },
@@ -275,6 +290,7 @@
      "cantidad": 30,
      "enStock": true,
      "vendidas": 70,
+     "icon": "imagenes/iconBullpadelBurtonAzulCeleste1_result.jpg",
      "fotos": ["BullpadelBurtonAzulCeleste1.jpg", "BullpadelBurtonAzulCeleste2.jpg", "BullpadelBurtonAzulCeleste3.jpg"],
      "descripcion": "Bullpadel Burton Azul Celeste, zapatillas de llamativo diseño que nos proporcionan el mejor agarre, calidad al mejor precio. Son unas zapatillas que se caracterizan por su buen agarre, pero a la vez, gracias a la suela de espiga, es una suela que permite deslizar por la pista para llegar a bolas difíciles. Para lograr la mayor durabilidad posible son unas zapatillas que cuentan con refuerzos en zonas de mayor desgaste. Fabricadas con muy buena amortiguación. Es uno de los aspectos más importantes para jugadores de pádel."
    },
@@ -289,6 +305,7 @@
      "cantidad": 33,
      "enStock": true,
      "vendidas": 30,
+     "icon": "imagenes/iconBullpadelBurtonGrisOscuro1_result.jpg",
      "fotos": ["BullpadelBurtonGrisOscuro1.jpg", "BullpadelBurtonGrisOscuro2.jpg"],
      "descripcion": "Bullpadel Burton Gris Oscuro, zapatillas diseñadas para proporcionar agarre, comodidad y amortiguación. Son unas zapatillas de excelente relación calidad precio. Son unas zapatillas que nos aseguran el mejor agarre a la pista, diseñadas con suela de espiga. Es la suela más utilizada en las pistas de pádel. Zapatillas con muy buena amortiguación, uno de los aspectos que más debemos cuidar cuando elegimos unas zapatillas de pádel. También son unas zapatillas ligeras, cómodas y transpirables, unas zapatillas con las que jugar al pádel con el mayor confort."
    },
@@ -303,6 +320,7 @@
      "cantidad": 0,
      "enStock": false,
      "vendidas": 112,
+     "icon": "imagenes/iconBullpadelBenkaAmarilloNegro2014_result.jpg",
      "fotos": ["BullpadelBenkaAmarilloNegro2014.jpg"],
      "descripcion": "Un calzado de pádel con estética atractiva en color amarillo y negro. Su fabricado con tecnología NON STITCHING que evita las costuras de piezas separadas dotando al calzado de mucha más resistencia. Máxima altura en los laterales y la puntera para mayor durabilidad. La puntera posee una pieza cosida al corte, pegada a la suela para aumentar el refuerzo."
    },
@@ -317,6 +335,7 @@
      "cantidad": 30,
      "enStock": true,
      "vendidas": 56,
+     "icon": "imagenes/iconBullpadelBaleAzulReal1_result.jpg",
      "fotos": ["BullpadelBaleAzulReal1.jpg", "BullpadelBaleAzulReal2.jpg"],
      "descripcion": "Zapatillas Bullpadel Bale Azul Real, zapatillas que nos van a proporcionar agarre en las salidas rápidas, pero además son unas zapatillas duraderas y de bonito diseño."
    },
@@ -331,6 +350,7 @@
      "cantidad": 28,
      "enStock": true,
      "vendidas": 73,
+     "icon": "imagenes/iconHeadRevoltPro2.0ClayNegroRojo1_result.jpg",
      "fotos": ["HeadRevoltPro2.0ClayNegroRojo1.jpg", "HeadRevoltPro2.0ClayNegroRojo2.jpg", "HeadRevoltPro2.0ClayNegroRojo3.jpg"],
      "descripcion": "Las nuevas Head Revolt Pro 2.0 Clay son las nuevas zapatillas HEAD que destacan por ser ligeras y proporcionar un juego rápido en pista. Excelente combinación entre confort y estabilidad, proporcionando también máximo agarre y amortiguación gracias a los sistemas Head, además de ser unas zapatillas de gran sujeción y transpirabilidad. Se han fabricado con la suela en forma de espiga, es la suela más utilizada para las pistas de pádel. Destacan por su gran agarre, son perfectas para deslizar por la pista para llegar a bolas de gran dificultad."
    },
@@ -345,6 +365,7 @@
      "cantidad": 78,
      "enStock": true,
      "vendidas": 23,
+     "icon": "imagenes/iconHeadRevoltPro2.0LtdNegro1_result.jpg",
      "fotos": ["HeadRevoltPro2.0LtdNegro1.jpg", "HeadRevoltPro2.0LtdNegro2.jpg", "HeadRevoltPro2.0LtdNegro3.jpg"],
      "descripcion": "Las Head Revolt pro 2.0 son una zapatillas pensadas para jugadores que buscan lo mejor a un precio excelente.  Hechas en materiales de gran calidad, destacan por su resistencia, estabilidad y durabilidad. Incorporan el sistema de estabilidad Energy Frame que aporta un plus de seguridad, evitando desplazamientos laterales, posibles resbalones y caídas. Suela en forma de espiga para un gran agarre a diversos terrenos. Cuenta con un refuerzo en el talón y la puntera. Transpirables en la zona del upper, manteniendo el piel seco y cómodo más tiempo."
    },
@@ -359,6 +380,7 @@
      "cantidad": 28,
      "enStock": true,
      "vendidas": 56,
+     "icon": "imagenes/iconHeadLazerNegroNaranja1_result.jpg",
      "fotos": ["HeadLazerNegroNaranja1.jpg", "HeadLazerNegroNaranja2.jpg"],
      "descripcion": "Las zapatillas Head Lazer Negro Naranja nos van a proporcionar el mejor agarre en todo tipo de superficies, además aportan una gran comodidad para nuestros partidos de pádel."
    },
@@ -373,6 +395,7 @@
      "cantidad": 65,
      "enStock": true,
      "vendidas": 72,
+     "icon": "imagenes/iconHeadRevoltProPadelRojo1_result.jpg",
      "fotos": ["HeadRevoltProPadelRojo1.jpg"],
      "descripcion": "Las zapatillas Head Revolt Pro Padel Rojas son zapatillas diseñadas para ofrecer al jugador de pádel la máxima comodidad en sus partidos de pádel. Han sido fabricadas con suela de espiga, una suela que nos garantiza el máximo agarre a la pista a la vez que facilita los deslizamientos. Destacan por su comodidad y ajuste a nuestro pie, han sido diseñadas para ofrecernos el máximo ajuste, además los cordones con sistema envolvente ayudan en este sentido. Son unas zapatillas transpirables, un aspecto muy importante para mantener nuestro pie seco."
    },
@@ -387,6 +410,7 @@
      "cantidad": 35,
      "enStock": true,
      "vendidas": 42,
+     "icon": "imagenes/iconAdidasNovakPro1_result.jpg",
      "fotos": ["AdidasNovakPro1.jpg", "AdidasNovakPro2.jpg", "AdidasNovakPro3.jpg"],
      "descripcion": "Las zapatillas adidas Novak Pro Conavy están fabricadas para resistir al juego agresivo con un diseño inspirado en el jugador Novak Djokovic. Unas zapatillas con un bonito diseño en azul marino que cuentan con la tecnología Adiprene en el talón y Adiwear en la suela que las hace mucho más resistentes. Unas zapatillas muy ligeras fabricadas en cuero sintético."
    },
@@ -401,6 +425,7 @@
      "cantidad": 75,
      "enStock": true,
      "vendidas": 29,
+     "icon": "imagenes/iconAdidasBarricade20171_result.jpg",
      "fotos": ["AdidasBarricade20171.jpg", "AdidasBarricade20172.jpg", "AdidasBarricade20173.jpg"],
      "descripcion": "Las zapatillas adidas Barricade 2017 son unas zapatillas de pádel que se han diseñado para dotarte la máxima estabilidad y agilidad necesaria sea cual sea la pista. Unas zapatillas muy cómodas gracias a su tejido en la zona superior que se adapta al movimiento natural del pie y a su mediasuela de goma EVA para una correcta amortiguación. Su suela de espiga con tecnología Adiwear ofrece una buena resistencia en cualquier superficie."
    },
@@ -415,6 +440,7 @@
      "cantidad": 35,
      "enStock": true,
      "vendidas": 29,
+     "icon": "imagenes/iconAdidasAdizeroClubNegro1_result.jpg",
      "fotos": ["AdidasAdizeroClubNegro1.jpg", "AdidasAdizeroClubNegro2.jpg", "AdidasAdizeroClubNegro3.jpg"],
      "descripcion": "Las zapatillas adidas Adizero Club Negro están diseñadas para los jugadores de pádel más agresivos para aportarles estabilidad y sujeción. Unas zapatillas con un diseño moderno en color negro y amarillo. Estas zapatillas están fabricadas con materiales cómodos y ligeros con malla transpirable que se adapta muy bien al arco del pie. Unas zapatillas que cuentan con suela mixta Adiwear para una perfecta tracción sobre la pista."
    },
@@ -429,6 +455,7 @@
      "cantidad": 33,
      "enStock": true,
      "vendidas": 29,
+     "icon": "imagenes/iconNikeZoomVapor9.5Tour1_result.jpg",
      "fotos": ["NikeZoomVapor9.5Tour1.jpg", "NikeZoomVapor9.5Tour2.jpg"],
      "descripcion": "Las  Nike Zoom Vapor 9.5 Clay llegan a las pistas de tenis y padel con un complemento perfecto para tus partidos. Cómodas, flexibles y con un gran agarre. Fabricadas con suela en forma de espiga garantizan una excelente adherencia al terreno. Diseño clásico en color blanco y azul. Cuenta con unidades Zoom para reformar y proteger tus pies, mejorando la amortiguación."
    },
@@ -443,6 +470,7 @@
      "cantidad": 73,
      "enStock": true,
      "vendidas": 19,
+     "icon": "imagenes/iconNikeZoomUltraCly1_result.jpg",
      "fotos": ["NikeZoomUltraCly1.jpg", "NikeZoomUltraCly2.jpg"],
      "descripcion": "Las Nike Air Zoom Ultra Cly son un complemento estrella para tus partidos de pádel. Su forma y tecnología proporciona confort, estabilidad y ligereza.  Diseñadas en color blanco y azul, tienen una gran amortiguación y absorción de impactos, gracias a las inyecciones de Phylon de la media suela. Suela de espiga o clay, hecha en goma GDX, para ofrecer un gran agarre, evitando deslizamientos laterales."
    },
@@ -457,6 +485,7 @@
      "cantidad": 13,
      "enStock": true,
      "vendidas": 147,
+     "icon": "imagenes/iconNikeCourtLiteCly1_result.jpg",
      "fotos": ["NikeCourtLiteCly1.jpg", "NikeCourtLiteCly2.jpg", "NikeCourtLiteCly3.jpg"],
      "descripcion": "Zapatillas Nike Court Lite Cly Lima, zapatillas con la calidad Nike a un precio inmejorable, zapatillas que destacan por su comodidad y gran agarre a la pista, llamativo diseño en color lima. Se han diseñado con suela de espiga, esta suela es la preferida por un gran número de jugadores, tanto jugadores profesionales, como jugadores aficionados, por su durabilidad y agarre. Son unas zapatillas duraderas, se han diseñado con refuerzos en las zonas en las que más desgaste sufre la zapatilla."
    }

@@ -97,7 +97,7 @@ color: black;
 #producto{
   display: flex;
   justify-content: space-around;
-  
+
   padding: 70px;
   background-image: url("../imagenes/FondoDescripcion.jpg");
 }

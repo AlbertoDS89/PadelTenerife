@@ -16,8 +16,13 @@ $(document).ready(function() {
   AOS.init();
 });
 
+function mostrarProducto(elemento){
+
+  console.log('elemento', elemento);
+}
+
 var options = {
-  url: "/PadelTenerife/js/productos.json",
+  url: "./js/productos.json",
   getValue: "name",
   cssClasses: "item-name",
   template: {
@@ -28,13 +33,23 @@ var options = {
   },
 
   list: {
+    onSelectItemEvent: function() {
+			var elemento = $("#buscador").getSelectedItemData();
+      mostrarProducto(elemento);
+    },
+    maxNumberOfElements: 10,
+		match: {
+			enabled: true
+		},
     showAnimation: {
       type: "slide"
     },
     hideAnimation: {
       type: "slide"
     }
-  }
+
+  },
+  theme: "round"
 
 };
 
