@@ -11,7 +11,7 @@
      "enStock": true,
      "temporada": 2018,
      "vendidas": 20,
-     "icon": "/imagenes/iconBullpadelBlackDragon3_result.png",
+     "icon": "imagenes/icon1.png",
      "fotos": ["BullpadelBlackDragon1.jpg", "BullpadelBlackDragon2.jpg", "BullpadelBlackDragon3.jpg"],
      "descripcion": "La pala BullPadel Black Dragon 2.0 llega con tecnologías renovadas y cuidado diseño para posicionarse entre las mejores palas de la línea avanzada (avantline) de BullPadel. Pala equilibrada con una amplia zona de punto dulce y un plus en potencia sin pérdida de precisión. Una de las mejores palas rugosas del mercado. Compra la Black Dragon 2.0 al mejor precio en tu tienda online líder en Europa, PadelStar."
    },
@@ -27,7 +27,7 @@
      "enStock": true,
      "temporada": 2018,
      "vendidas": 44,
-     "icon": "imagenes/iconBullpadelHack20181Min_result.jpg",
+     "icon": "imagenes/icon2.png",
      "fotos": ["BullpadelHack20181.jpg", "BullpadelHack20182.jpg", "BullpadelHack20183.jpg"],
      "descripcion": "Una de las palas revelación de esta temporada ¡La nueva pala del mejor jugador español del World Pádel Tour, Paquito Navarro! BULLPADEL HACK, La pala de Paquito Navarro. La BullPadel Hack ha sido creada para otorgarnos el máximo de potencia sin pérdida de control, teniendo entre nuestras manos una pala manejable que nos ayudará a imprimir la mayor velocidad a nuestro juego. Un diseño elegante en negro y dorado que enamorará."
    },
@@ -43,7 +43,7 @@
      "enStock": false,
      "temporada": 2017,
      "vendidas": 167,
-     "icon": "imagenes/iconBullpadelVertexControl20171_result.jpg",
+     "icon": "imagenes/icon3.png",
      "fotos": ["BullpadelVertexControl20171.jpg", "BullpadelVertexControl20172.jpg"],
      "descripcion": "Bullpadel Vertex Control 2017, pala de control de una de las mejores palas Bullpadel. Es una pala de gran control, muy buena potencia y un diseño espectacular. Pala diseñada pensando en jugadores de nivel avanzado o profesional. Jugadores que buscan control en sus golpes con un excepcional rendimiento en potencia. Pero también es una pala que por su amplio punto dulce y buen control es ideal para jugadores de nivel medio que buscan una pala que les permita evolucionar en su juego."
    },
@@ -59,7 +59,6 @@
      "enStock": true,
      "temporada": 2016,
      "vendidas": 58,
-     "icon": "imagenes/iconBullpadelK3Pro20161_result.jpg",
      "fotos": ["BullpadelK3Pro20161.jpg", "BullpadelK3Pro20162.jpg"],
      "descripcion": "La K3 Pro es una pala fabricada con marco de carbono aumentando su resistencia ante golpes y roces. Posee una goma de EVA en color negro, llamada BlackEva por BullPadel, una goma que ayuda a mejorar la potencia de la pala. Es una de las palas más vendidas y de gran calidad del catálogo bullpadel 2016 con la que se ha buscado máxima eficacia en los golpes y durabilidad al fabricar con materiales de calidad. BullPadel fue una de las marcas pioneras en fabricar materiales para jugar al pádel, y con varios jugadores entre sus filas, lo que hace ver la calidad de esta marca."
    },
@@ -75,7 +74,6 @@
      "enStock": true,
      "temporada": 2017,
      "vendidas": 27,
-     "icon": "imagenes/iconDunlopHotShotExtreme_result.jpg",
      "fotos": ["DunlopHotShotExtreme.jpg"],
      "descripcion": "Pala Dunlop Hot Shot Extreme es una pala de gran potencia y excelente control diseñada para jugadores de nivel avanzado que buscan máxima potencia y control en su juego. La Hot Shot Extreme incorpora la última tecnología Dunlop ya que se ha fabricado con materiales de gran calidad."
    },
@@ -91,7 +89,6 @@
      "enStock": true,
      "temporada": 2017,
      "vendidas": 45,
-     "icon": "imagenes/iconDunlopHotShotElite1_result.jpg",
      "fotos": ["DunlopHotShotElite1.jpg", "DunlopHotShotElite2.jpg", "DunlopHotShotElite3.jpg"],
      "descripcion": "La nueva Duplop Hot Shot Elite es una pala ligera de control, creada en forma redonda, favoreciendo un amplio punto dulce, ideal para buenas salidas de bola. Su peso va de los 340 a los 360 gramos. Fabricada para jugadores de todos los niveles que tengan buena técnica para realizar multitud de efectos precisos y controlados. Esta pala cuenta también con una buena potencia. Estética moderna y urbana con un toque juvenil y rebelde en color naranja y blanco. Realizada en forma redondeada, para conferir un excelente control y mejorar el manejo de la pala. Fibra de vidrio resistente y de calidad en las caras de la pala. El marco está hecho de grafito. Núcleo interior de goma EVA, proporcionando fluidez y confort a tus golpeos controlados. Puente abierto para reducir peso. Duplop Hot Shot Elite es una pala con un diseño único y transgresor. Cómoda con gran control y buena potencia."
    },
@@ -107,7 +104,6 @@
      "enStock": true,
      "temporada": 2014,
      "vendidas": 129,
-     "icon": "imagenes/iconDunlopLuxury1_result.jpg",
      "fotos": ["DunlopLuxury1.jpg", "DunlopLuxury2.jpg"],
      "descripcion": "La Dunlop Luxury es una pala que ofrece potencia sobre la bola, una pala con muy buena potencia y un buen control, una pala dirigida a jugadores que les gusta pegar fuerte a la bola pero sin renunciar al control. Ha sido fabricada en forma híbrida oversize, con un peso que oscila entre los 360 y los 375 gramos, fabricada en 38 milímetros. Para conseguir una pala con pocas vibraciones Dunlop ha insertado caucho en el marco y el puente, este caucho absorbe muy bien las vibraciones con lo que esta pala es una pala recomendable para aquellos jugadores que tienen problemas y juegan con dolor en el codo."
    },
@@ -123,7 +119,6 @@
      "enStock": false,
      "temporada": 2014,
      "vendidas": 145,
-     "icon": "imagenes/iconDunlopFusion1_result.jpg",
      "fotos": ["DunlopFusion1.jpg", "DunlopFusion2.jpg", "DunlopFusion3.jpg"],
      "descripcion": "La Dunlop Fusion 1.4 ha sido creada para jugadores de nivel alto o competición. Se ha fabricado con la cabeza en forma de lágrima invertida para aumentar la potencia en golpes como el remate. Su balance es medio, lo que aumenta el equilibrio notándolo en golpes que requieren más control como las voleas y haciéndola así una pala muy manejable. Tanto las superficies de las caras como el marco se han fabricado en carbono, un material muy resistente y flexible, lo que junto a su núcleo interior compuesto en goma EVA Super Flex ayuda a absorber los impactos y tener un tacto inmejorable en cada golpe."
    },
@@ -139,7 +134,6 @@
      "enStock": true,
      "temporada": 2017,
      "vendidas": 45,
-     "icon": "imagenes/iconDunlopNitro1_result.jpg",
      "fotos": ["DunlopNitro1.jpg", "DunlopNitro2.jpg", "DunlopNitro3.jpg"],
      "descripcion": "La Dunlop Nitro es una pala cómoda manejable y de gran calidad. Incorpora la última tecnología de Dunlop. Fabricada en forma redonda y con un balance bajo. Diseñada para hombres exigentes que buscan favorecer su juego defensivo y perfeccionar sus efectos y boleas. Ideada para juegos avanzados o profesionales, aunque se adapta a todos los niveles de juego. Su peso va de los 360 y 380 gramos y un grosor de 38 mm. Esta pala cuenta con las caras realizadas en fibra de vidrio y el marco en fibra de carbono.  Además cuenta con un punto blando, gracias a su goma EVA,  que proporciona comodidad y confort a tus golpeos."
    },
@@ -155,7 +149,6 @@
      "enStock": true,
      "temporada": 2017,
      "vendidas": 57,
-     "icon": "imagenes/iconHeadGrapheneTouchDeltaHybrid1_result.jpg",
      "fotos": ["HeadGrapheneTouchDeltaHybrid1.jpg", "HeadGrapheneTouchDeltaHybrid2.jpg"],
      "descripcion": "Fabricada en su particular molde de diamante. Así llega a nuestras manos la espectacular pala de pádel Head Graphene Touch Delta Hybrid, actualmente utilizada por el 13 veces número uno del mundo Fernando Belasteguín y lista para ser usada por todo aquel que quiere más que comodidad y se inclina hacía lo versátil, lo útil y lo ligero para ganar cualquier partido. Una pala duradera y compleja que no ahorra esfuerzos en dar lo mejor de sí."
    },
@@ -171,7 +164,6 @@
      "enStock": true,
      "temporada": 2016,
      "vendidas": 97,
-     "icon": "imagenes/iconHeadGrapheneXTDeltaPro1_result.jpg",
      "fotos": ["HeadGrapheneXTDeltaPro1.jpg", "HeadGrapheneXTDeltaPro2.jpg"],
      "descripcion": "La pala de pádel HEAD GRAPHENE XT DELTA PRO WITH CB este modelo de Head es la raqueta con la que ha jugado todo el 2016 el gran Fernando Belasteguin, el jugador número 1 del ranking masculino de World Padel Tour, un jugador que nos deleita cada partido con su estupenda clase y estilo de juego. Este gran jugador ha diseñado este modelo a su gusto y con los materiales elegidos por él."
    },
@@ -187,7 +179,6 @@
      "enStock": false,
      "temporada": 2016,
      "vendidas": 147,
-     "icon": "imagenes/iconHeadGrapheneTornadoE+1_result.jpg",
      "fotos": ["HeadGrapheneTornadoE+1.jpg", "HeadGrapheneTornadoE+2.jpg"],
      "descripcion": "Si estás buscando una pala de pádel que puedas controlar la bola en cualquier tipo de situación, la nueva Head Graphene Tornado E+ muestra un rendimiento perfecto gracias a su conjunto de características y sistemas avanzados. Es una pala dirigida a un jugador de nivel avanzado que busca una pala de excepcional comportamiento en control, pero además necesita una pala que no se quede corta en potencia cuando vayamos a golpear fuerte a la bola. Se ha fabricado en forma de lágrima, con peso que va de los 365 a los 386 gramos, con perfil de 38 milímetros."
    },
