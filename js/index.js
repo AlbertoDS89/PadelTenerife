@@ -12,44 +12,45 @@
 //   addImagen(visualizacionProducto, producto.fotos[contador]);
 // }
 
-$(document).ready(function() {
-  AOS.init();
+$(document).ready(function () {
+    AOS.init();
 });
 
-function mostrarProducto(elemento){
-
-  console.log('elemento', elemento);
+function mostrarProducto(elemento) {
+    $('.preciodesc > p').html('Precio final:' + elemento.precioDto);
+    $('#imagen-producto').attr('src', '/imagenes/' + elemento.fotos[0]);
+    console.log('elemento', elemento);
 }
 
 var options = {
-  url: "./js/productos.json",
-  getValue: "name",
-  cssClasses: "item-name",
-  template: {
-    type: "iconLeft",
-    fields: {
-      iconSrc: "icon"
-    }
-  },
-
-  list: {
-    onSelectItemEvent: function() {
-			var elemento = $("#buscador").getSelectedItemData();
-      mostrarProducto(elemento);
+    url: "./js/productos.json",
+    getValue: "name",
+    cssClasses: "item-name",
+    template: {
+        type: "iconLeft",
+        fields: {
+            iconSrc: "icon"
+        }
     },
-    maxNumberOfElements: 10,
-		match: {
-			enabled: true
-		},
-    showAnimation: {
-      type: "slide"
-    },
-    hideAnimation: {
-      type: "slide"
-    }
 
-  },
-  theme: "round"
+    list: {
+        onClickEvent: function () {
+            var elemento = $("#buscador").getSelectedItemData();
+            mostrarProducto(elemento);
+        },
+        maxNumberOfElements: 10,
+        match: {
+            enabled: true
+        },
+        showAnimation: {
+            type: "slide"
+        },
+        hideAnimation: {
+            type: "slide"
+        }
+
+    },
+    theme: "round"
 
 };
 
