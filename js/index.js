@@ -17,7 +17,15 @@ $(document).ready(function () {
 });
 
 function mostrarProducto(elemento) {
+    $('.nombreProduc > h1').html(elemento.name);
+    $('.precio > p').html('Precio:' + elemento.precio);
     $('.preciodesc > p').html('Precio final:' + elemento.precioDto);
+    $('.marca > p').html('Marca:' + elemento.marca);
+    $('.year > p').html('Año:' + elemento.temporada);
+    $('.tipo > p').html('Tipo:' + elemento.tipo);
+    $('.unidRest > p').html('Unidades Restantes:' + elemento.cantidad);
+    $('.unidVend > p').html('Unidades Vendidas:' + elemento.vendidas);
+    $('.desc > p').html(elemento.descripcion);
     $('#imagen-producto').attr('src', '/imagenes/' + elemento.fotos[0]);
     console.log('elemento', elemento);
 }

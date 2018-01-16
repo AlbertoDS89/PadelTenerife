@@ -121,7 +121,7 @@ nav a:hover {
 
 }
 
-.hoja-producto h1 {
+.nombreProduc {
     margin: auto;
     color: black;
     font-family: 'Monoton';
@@ -129,8 +129,8 @@ nav a:hover {
 }
 
 #imagen-producto {
-    width: 100px;
-    height: 80px;
+    width: 200px;
+    height: 250px;
 }
 
 .info {
