@@ -16,6 +16,16 @@ $(document).ready(function () {
     AOS.init();
 });
 
+//var disponibilidad = {
+//  if (elemento.stock === true){
+//  disponibilidad = 'Si';
+//  {
+//    else
+//    disponibilidad = 'No';
+//  }
+//  }
+//}
+
 function mostrarProducto(elemento) {
     $('.nombreProduc > h1').html(elemento.name);
     $('.precio > p').html('Precio:' + elemento.precio);
@@ -26,7 +36,7 @@ function mostrarProducto(elemento) {
     $('.unidRest > p').html('Unidades Restantes:' + elemento.cantidad);
     $('.unidVend > p').html('Unidades Vendidas:' + elemento.vendidas);
     $('.desc > p').html(elemento.descripcion);
-    $('#imagen-producto').attr('src', '/imagenes/' + elemento.fotos[0]);
+    $('#imagen-producto').attr('src', './imagenes/' + elemento.fotos[0]);
     console.log('elemento', elemento);
 }
 
