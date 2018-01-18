@@ -1,16 +1,3 @@
-// var visualizacionProducto = document.getElementById('visualizacionProducto');
-// var producto = productos[1];
-// var numeroImagenes=producto.fotos.length;
-// function addImagen(contenedor, urlImagen){
-//   var imagen =  document.createElement('img');
-//   contenedor.appendChild(imagen);
-//     imagen.src = 'imagenes/' + urlImagen;
-// }
-//
-// var contador;
-// for (contador=0; contador<numeroImagenes; contador ++){
-//   addImagen(visualizacionProducto, producto.fotos[contador]);
-// }
 
 $(document).ready(function () {
     AOS.init();
@@ -36,8 +23,26 @@ function mostrarProducto(elemento) {
     $('.unidRest > p').html('Unidades Restantes:' + elemento.cantidad);
     $('.unidVend > p').html('Unidades Vendidas:' + elemento.vendidas);
     $('.desc > p').html(elemento.descripcion);
+
+    // Arreglar (con elementos y no como cadena de texto)
+    $('#foto-producto').html("<a id=\"enlace-producto\" href=\"#\" class=\"swipebox\"><img id=\"imagen-producto\"></a>");
+
     $('#imagen-producto').attr('src', './imagenes/' + elemento.fotos[0]);
-    console.log('elemento', elemento);
+
+    $( '#enlace-producto' ).click( function( e ) {
+      e.preventDefault();
+
+      var datos = [];
+      for (i = 0; i < elemento.fotos.length; i++) {
+        var obj = {};
+        obj.href = './imagenes/' + elemento.fotos[i];
+        obj.title = elemento.name;
+        datos.push(obj);
+      }
+
+      console.log('muestra:', datos);
+      $.swipebox( datos );
+    } );
 }
 
 var options = {
