@@ -360,5 +360,14 @@ footer {
 .copyRights p {
     font-size: 16px;
     font-family: 'Jura';
-    color: grey;
+    color:darkgrey;
+}
+
+.formulario{
+  padding-left: 80px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  font-family: 'Jura';
+  color: darkgrey;
 }
