@@ -1,176 +1,364 @@
 
-body{
-  margin:0;
+body {
+    margin: 0;
 }
-header{
-  display: flex;
-  justify-content: center;
-  border-bottom: solid;
-  border-color: white;
-  border-width: 3px;
-  background-color: black;
+
+header {
+    display: flex;
+    position: fixed;
+    z-index: 5;
+    justify-content: center;
+    border-bottom: solid;
+    border-color: white;
+    border-width: 3px;
+    background-color: black;
+    width: 100%;
 }
 
 .logo {
-  background-image: url("../imagenes/logo.png");
-  width: 70px;
-  height: 70px;
+    background-image: url("../imagenes/logo.png");
+    width: 70px;
+    height: 70px;
 }
 
- nav{
-  display: flex;
-  background: black;
-  position: relative;
-
-}
-nav a{
-font-family: 'Sedgwick Ave Display';
-color: white;
-padding: 20px;
-display: inline-block;
-text-decoration:none;
-transition:all 1s linear;
-}
-
- nav a:hover{
-background-color: white;
-color: black;
-
-}
-
-
-#descripcion{
-  display: flex;
-  padding: 70px;
-  justify-content: space-around;
-  background-image: url("../imagenes/FondoDescripcion.jpg");
-}
-
-.desc1 h1{
-  font-size: 50px;
-  font-family: 'Monoton';
-  color: white;
-}
-
-.desc1 p{
-  font-size: 30px;
-  font-family: 'Jura';
-  color: white;
-}
-
-
-#caracteristicas{
-  display: flex;
-  justify-content: space-around;
-  padding: 100px;
-}
-
-#caracteristicas h1{
-  font-size: 30px;
-  font-family: 'Monoton';
-}
-
-#caracteristicas p{
-  font-size: 18px;
-  font-family: 'Jura';
-}
-.paypal{
-  color: #7CFC00;
-}
-
-.envio{
-  color: #7CFC00;
-}
-
-.devoluciones{
-  color: #7CFC00;
-}
-
-#producto{
-  display: flex;
-  height: 700px;
-  padding: 70px;
-  background-image: url("../imagenes/FondoDescripcion.jpg");
-}
-
-  footer {
+nav {
     display: flex;
+    background: black;
+    position: relative;
+
+}
+
+nav a {
+    font-family: 'Sedgwick Ave Display';
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 1s linear;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#descripcion {
+    display: flex;
+    padding: 70px;
+    justify-content: space-around;
+    background-image: url("../imagenes/FondoDescripcion.jpg");
+
+}
+
+.desc1 h1 {
+    font-size: 50px;
+    font-family: 'Monoton';
+    color: white;
+}
+
+.desc1 p {
+    font-size: 30px;
+    font-family: 'Jura';
+    color: white;
+}
+
+#caracteristicas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 75px;
+}
+
+#caracteristicas h1 {
+    font-size: 30px;
+    font-family: 'Monoton';
+}
+
+#caracteristicas p {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-family: 'Jura';
+}
+
+.paypal {
+    color: #7CFC00;
+}
+
+.envio {
+    color: #7CFC00;
+}
+
+.devoluciones {
+    color: #7CFC00;
+}
+
+#producto {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    background-image: url("../imagenes/FondoDescripcion.jpg");
+}
+
+.prod1 {
+    display: flex;
+    width: 30%;
+    height: 100%;
+}
+
+.prod2 {
+    width: 70%;
+    height: 100%;
+}
+
+.hoja-producto {
+    display: flex;
+    padding-top: 2%;
+    padding-left: 10px;
+    flex-direction: column;
+    background-color: white;
+    border: solid;
+    background-color: #c4acac
+
+}
+
+.nombreProduc {
+    margin: auto;
+    color: black;
+    font-family: 'Monoton';
+
+}
+
+#imagen-producto {
+    width: 200px;
+    height: 250px;
+    border: solid 4px;
+    border-color: black;
+}
+
+.info {
+    display: flex;
+}
+
+.lightbox {
+    width: 30%;
+    height: 100%;
+}
+
+.datos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 15%;
+}
+
+.precio p {
+    font-family: 'Jura';
+    font-size: 20px;
+}
+
+.preciodesc p {
+    font-family: 'Jura';
+    font-size: 20px;
+}
+
+.marca p {
+    font-family: 'Jura';
+    font-size: 20px;
+}
+
+.year p {
+    font-family: 'Jura';
+    font-size: 20px;
+}
+
+.tipo p {
+    font-family: 'Jura';
+    font-size: 20px;
+    padding-right: 10%;
+}
+
+.stock p {
+    font-family: 'Jura';
+    font-size: 20px;
+    padding-right: 10%;
+}
+
+.unidRest p {
+    font-family: 'Jura';
+    font-size: 20px;
+    padding-right: 10%;
+}
+
+.unidVend p {
+    font-family: 'Jura';
+    font-size: 20px;
+    padding-right: 10%;
+}
+
+.desc {
+    padding: 5%;
+    width: 90%;
+    font-family: 'Jura';
+    text-align: center;
+    font-size: 16px;
+    padding-right: 10%;
+}
+
+footer {
+    display: block;
     justify-content: center;
     border-bottom: solid;
     background-color: white;
-  }
-
-#marcas{
-  display: flex;
-  justify-content: center;
-}
-.head{
-  background-image: url("../imagenes/headlogo.png");
-  background-repeat: no-repeat;
-  width: 160px;
-  height: 160px;
-  padding: 10px;
 }
 
-.bullPadel{
-  background-image: url("../imagenes/bullpadellogo.png");
-  background-repeat: no-repeat;
-  width: 160px;
-  height: 160px;
-  padding: 10px;
+#marcas {
+    display: flex;
+    justify-content: center;
+    background-color: #c6afaf;
+    padding: 20px;
 }
 
-.dunlop{
-  background-image: url("../imagenes/dunloplogo.png");
-  background-repeat: no-repeat;
-  width: 160px;
-  height: 160px;
-  padding: 10px;
-
+.head {
+    background-image: url("../imagenes/headlogo.png");
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    transition: all 0.5s linear 0.25s;
+    width: 160px;
+    height: 110px;
+    padding: 10px;
 }
 
-.adidas{
-  background-image: url("../imagenes/adidaslogo.png");
-  background-repeat: no-repeat;
-  width: 160px;
-  height: 160px;
-  padding: 10px;
+.head:hover {
+    opacity: 1;
 }
 
-.nike{
-  background-image: url("../imagenes/nikelogo.png");
-  background-repeat: no-repeat;
-  width: 160px;
-  height: 160px;
-  padding: 10px;
+.bullPadel {
+    background-image: url("../imagenes/bullpadellogo.png");
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    transition: all 0.5s linear 0.25s;
+    width: 160px;
+    height: 110px;
+    padding: 10px;
 }
 
-.willson{
-  background-image: url("../imagenes/wilsonlogo.png");
-  background-repeat: no-repeat;
-  width: 160px;
-  height: 160px;
-  padding: 10px;
+.bullPadel:hover {
+    opacity: 1;
 }
 
-/*.social {
-  position: relative;
+.dunlop {
+    background-image: url("../imagenes/dunloplogo.png");
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    transition: all 0.5s linear 0.25s;
+    width: 160px;
+    height: 110px;
+    padding: 10px;
+}
 
+.dunlop:hover {
+    opacity: 1;
+}
+
+.adidas {
+    background-image: url("../imagenes/adidaslogo.png");
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    transition: all 0.5s linear 0.25s;
+    width: 160px;
+    height: 110px;
+    padding: 10px;
+}
+
+.adidas:hover {
+    opacity: 1;
+}
+
+.nike {
+    background-image: url("../imagenes/nikelogo.png");
+    background-repeat: no-repeat;
+    background-position: 0 30px;
+    opacity: 0.25;
+    transition: all 0.5s linear 0.25s;
+    width: 160px;
+    height: 110px;
+    padding: 10px;
+}
+
+.nike:hover {
+    opacity: 1;
+}
+
+.willson {
+    background-image: url("../imagenes/wilsonlogo.png");
+    background-repeat: no-repeat;
+    opacity: 0.25;
+    transition: all 0.5s linear 0.25s;
+    width: 160px;
+    height: 110px;
+    padding: 10px;
+}
+
+.willson:hover {
+    opacity: 1;
+}
+
+.piePagina {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
+
+.logoPie {
+    background-image: url("../imagenes/LogoDescripcion.png");
+    width: 200px;
+    height: 200px;
+}
+
+.social {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.social a {
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    display: inline-flex;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: darkgrey;
+    opacity: 0.25;
+    transition: all 0.5s linear 0.25s;
+}
+
+.social a:hover {
+    opacity: 1;
 }
 
 .twitter {
-  color: white;
-  border-radius: 10%;
-  background: #1dcaff;
+    color: black;
 }
 
 .facebook {
-  color: #3B5998;
-  border-radius: 10%;
+    color: black;
 }
 
 .youtube {
-  color: #CC181E;
-  border-radius: 10%;
+    color: black;
 }
-*/
+
+.copyRights {
+    display: flex;
+}
+
+.copyRights p {
+    font-size: 16px;
+    font-family: 'Jura';
+    color: grey;
+}
