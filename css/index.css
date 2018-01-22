@@ -376,3 +376,10 @@ footer {
   font-family: 'Jura';
   color: darkgrey;
 }
+
+
+form{
+  border: dashed 3px;
+  padding: 10px;
+  border-color: darkgrey;
+}

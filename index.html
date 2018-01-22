@@ -117,7 +117,7 @@
               <p><strong>Unidades Vendidas: </strong></p>
             </div>
             <div class="stock">
-              <p><strong>En Stock: Si</strong></p>
+              <p><strong>En Stock: </strong></p>
             </div>
           </div>
         </div>
@@ -129,12 +129,12 @@
   </div>
 
   <div id="marcas">
-    <div class="head" onclick="location.href='https://www.head.com/en-IC/home/'"></div>
-    <div class="bullPadel" onclick="location.href='https://www.bullpadel.com/'"></div>
-    <div class="dunlop" onclick="location.href='https://www.dunlop.eu/es_es/motorcycle.html#/'"></div>
-    <div class="adidas" onclick="location.href='https://www.adidas.es/'"></div>
-    <div class="nike" onclick="location.href='https://www.nike.com/es/es_es/'"></div>
-    <div class="willson" onclick="location.href='http://www.wilson.com/en-us'"></div>
+    <div class="head" onclick="window.open('https://www.head.com/en-IC/home/','_blank')"></div>
+    <div class="bullPadel" onclick="window.open('https://www.bullpadel.com/','_blank')"></div>
+    <div class="dunlop" onclick="window.open('https://www.dunlop.eu/es_es/motorcycle.html#/','_blank')"></div>
+    <div class="adidas" onclick="window.open('https://www.adidas.es/','_blank')"></div>
+    <div class="nike" onclick="window.open('https://www.nike.com/es/es_es/','_blank')"></div>
+    <div class="willson" onclick="window.open('http://www.wilson.com/en-us','_blank')"></div>
   </div>
 
   <footer>
@@ -157,8 +157,14 @@
           Nombre: <input type="text" name="nombre" placeholder="Nombre" required> Email: <input type="email" name="correo" placeholder="nombre@correo.com" required>
           <br>
           <strong>¿Que marca te gustaria que incluyeramos?: </strong>
-          <br> ASICS <input type="checkbox" name="marca"> VARLION <input type="checkbox" name="marca"> PRINCE <input type="checkbox" name="marca"> BLACK CROWN <input type="checkbox" name="marca"> SIUX <input type="checkbox" name="marca">
-          <input type="submit" value="Enviar">
+          <div class="marcas-padel">
+               ASICS <input type="checkbox" name="marca">
+               VARLION <input type="checkbox" name="marca">
+               PRINCE <input type="checkbox" name="marca">
+               BLACK CROWN <input type="checkbox" name="marca">
+               SIUX <input type="checkbox" name="marca">
+             </div>
+          <input id="enviarform" type="submit" value="Enviar">
         </form>
       </div>
 

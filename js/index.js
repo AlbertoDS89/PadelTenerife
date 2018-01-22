@@ -3,16 +3,6 @@ $(document).ready(function () {
     AOS.init();
 });
 
-//var disponibilidad = {
-//  if (elemento.stock === true){
-//  disponibilidad = 'Si';
-//  {
-//    else
-//    disponibilidad = 'No';
-//  }
-//  }
-//}
-
 function mostrarProducto(elemento) {
     $('.nombreProduc > h1').html(elemento.name);
     $('.precio > p').html('<strong>Precio:</strong> ' + elemento.precio);
@@ -22,6 +12,13 @@ function mostrarProducto(elemento) {
     $('.tipo > p').html('<strong>Tipo:</strong> ' + elemento.tipo);
     $('.unidRest > p').html('<strong>Unidades Restantes:</strong> ' + elemento.cantidad);
     $('.unidVend > p').html('<strong>Unidades Vendidas:</strong> ' + elemento.vendidas);
+
+    if (elemento.enStock === true) {
+      $('.stock > p').html('<strong>En stock:</strong> Sí');
+    } else {
+      $('.stock > p').html('<strong>En stock:</strong> No');
+    }
+
     $('.desc > p').html(elemento.descripcion);
 
     // Arreglar (con elementos y no como cadena de texto)
@@ -78,3 +75,12 @@ var options = {
 };
 
 $("#buscador").easyAutocomplete(options);
+
+$("#enviarform").click(function(e) {
+    var correcto = ($(".marcas-padel input[type=checkbox]:checked").length > 0);
+
+    if (correcto == false) {
+      alert('Selecciona al menos una de las marcas');
+      return false;
+    }
+});
