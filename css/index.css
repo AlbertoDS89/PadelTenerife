@@ -315,6 +315,11 @@ footer {
     height: 200px;
 }
 
+.contacto{
+  display: flex;
+  justify-content: center;
+}
+
 .social {
     text-align: center;
     padding-top: 70px;
