@@ -3,6 +3,11 @@ $(document).ready(function () {
     AOS.init();
 });
 
+$(document).ready(function(){
+  $.cookieBar();
+});
+
+
 function mostrarProducto(elemento) {
     $('.nombreProduc > h1').html(elemento.name);
     $('.precio > p').html('<strong>Precio:</strong> ' + elemento.precio);
