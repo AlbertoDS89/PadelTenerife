@@ -15,13 +15,13 @@ $(document).ready(function () {
 
 function mostrarProducto(elemento) {
     $('.nombreProduc > h1').html(elemento.name);
-    $('.precio > p').html('Precio:' + elemento.precio);
-    $('.preciodesc > p').html('Precio final:' + elemento.precioDto);
-    $('.marca > p').html('Marca:' + elemento.marca);
-    $('.year > p').html('Año:' + elemento.temporada);
-    $('.tipo > p').html('Tipo:' + elemento.tipo);
-    $('.unidRest > p').html('Unidades Restantes:' + elemento.cantidad);
-    $('.unidVend > p').html('Unidades Vendidas:' + elemento.vendidas);
+    $('.precio > p').html('<strong>Precio:</strong> ' + elemento.precio);
+    $('.preciodesc > p').html('<strong>Precio final:</strong> ' + elemento.precioDto);
+    $('.marca > p').html('<strong>Marca:</strong> ' + elemento.marca);
+    $('.year > p').html('<strong>Año:</strong>'  + elemento.temporada);
+    $('.tipo > p').html('<strong>Tipo:</strong> ' + elemento.tipo);
+    $('.unidRest > p').html('<strong>Unidades Restantes:</strong> ' + elemento.cantidad);
+    $('.unidVend > p').html('<strong>Unidades Vendidas:</strong> ' + elemento.vendidas);
     $('.desc > p').html(elemento.descripcion);
 
     // Arreglar (con elementos y no como cadena de texto)

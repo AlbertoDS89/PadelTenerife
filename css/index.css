@@ -97,12 +97,12 @@ nav a:hover {
 #producto {
     display: flex;
     justify-content: space-around;
-
     padding: 70px;
     background-image: url("../imagenes/FondoDescripcion.jpg");
 }
 
 .prod1 {
+    display: flex;
     width: 30%;
     height: 100%;
 }
@@ -115,9 +115,11 @@ nav a:hover {
 .hoja-producto {
     display: flex;
     padding-top: 2%;
+    padding-left: 10px;
     flex-direction: column;
     background-color: white;
     border: solid;
+    background-color: #c4acac
 
 }
 
@@ -131,6 +133,8 @@ nav a:hover {
 #imagen-producto {
     width: 200px;
     height: 250px;
+    border: solid 4px;
+    border-color: black;
 }
 
 .info {
@@ -146,7 +150,7 @@ nav a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-right: 5%;
+    padding-right: 15%;
 }
 
 .precio p {
@@ -361,5 +365,14 @@ footer {
 .copyRights p {
     font-size: 16px;
     font-family: 'Jura';
-    color: grey;
+    color:darkgrey;
+}
+
+.formulario{
+  padding-left: 80px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  font-family: 'Jura';
+  color: darkgrey;
 }

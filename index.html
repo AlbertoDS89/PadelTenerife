@@ -25,7 +25,7 @@
       <a class=scroll href="#caracteristicas">Caracteristicas</a>
       <a class=scroll href="#producto">Productos</a>
       <a class=scroll href="#marcas">Marcas</a>
-      <a class=scroll href="footer">Redes Sociales</a>
+      <a class=scroll href="footer">Formulario</a>
     </nav>
   </header>
 
@@ -46,7 +46,9 @@
     </div>
 
     <div class="desc2">
-      <IMG SRC="imagenes/PelotaDescripcion.png" alt="">
+      <br>
+      <br>
+      <img src="imagenes/PelotaDescripcion.png" alt="">
     </div>
 
   </div>
@@ -80,42 +82,42 @@
   </div>
 
   <div id="producto">
-    <div class="prod1"><input id="buscador" /></div>
+    <div class="prod1"><input id="buscador"/><img src="imagenes/lupa.png" alt=""></div>
     <div class="prod2">
       <div class="hoja-producto">
       <div class="nombreProduc">
-        <h1></h1>
+        <h1>Selecciona tu producto</h1>
       </div>
         <div class="info">
           <div id="foto-producto" class="lightbox">
-            <!-- <a id="enlace-producto" href="#" class="swipebox">
-              <img id="imagen-producto" src="" alt="">
-            </a> -->
+            <a id="enlace-producto" href="#" class="swipebox">
+              <img id="imagen-producto" src="imagenes/paladefecto.png" alt="">
+            </a>
           </div>
           <div class="datos">
             <div class="precio">
-              <p></p>
+              <p><strong>Precio: </strong></p>
             </div>
             <div class="preciodesc">
-              <p></p>
+              <p><strong>Precio final: </strong></p>
             </div>
             <div class="marca">
-              <p></p>
+              <p><strong>Marca: </strong></p>
             </div>
             <div class="year">
-              <p></p>
+              <p><strong>Año: </strong></p>
             </div>
             <div class="tipo">
-              <p></p>
-            </div>
-            <div class="stock">
-              <p>En Stock: Si</p>
+              <p><strong>Tipo: </strong></p>
             </div>
             <div class="unidRest">
-              <p></p>
+              <p><strong>Unidades Restantes: </strong></p>
             </div>
             <div class="unidVend">
-              <p></p>
+              <p><strong>Unidades Vendidas: </strong></p>
+            </div>
+            <div class="stock">
+              <p><strong>En Stock: Si</strong></p>
             </div>
           </div>
         </div>
@@ -127,39 +129,48 @@
   </div>
 
   <div id="marcas">
-    <div class="head"></div>
-    <div class="bullPadel"></div>
-    <div class="dunlop"></div>
-    <div class="adidas"></div>
-    <div class="nike"></div>
+    <div class="head" onclick="location.href='https://www.head.com/en-IC/home/'"></div>
+    <div class="bullPadel" onclick="location.href='https://www.bullpadel.com/'"></div>
+    <div class="dunlop" onclick="location.href='https://www.dunlop.eu/es_es/motorcycle.html#/'"></div>
+    <div class="adidas" onclick="location.href='https://www.adidas.es/'"></div>
+    <div class="nike" onclick="location.href='https://www.nike.com/es/es_es/'"></div>
     <div class="willson" onclick="location.href='http://www.wilson.com/en-us'"></div>
   </div>
 
   <footer>
-    <div class="piePagina">
+  <div class="piePagina">
 
-      <div class="logoPie"></div>
+    <div class="logoPie"></div>
 
-      <div id="contacto">
-        <div class="social">
-          <a href="https://twitter.com/WorldPadelTour"><i class="fab fa-twitter fa-2x twitter"></i></a>
-          <a href="https://www.facebook.com/worldpadeltour/"><i class="fab fa-facebook-f fa-2x facebook"></i></a>
-          <a href="https://www.youtube.com/WorldPadelTour"><i class="fab fa-youtube fa-2x youtube"></i></a>
-        </div>
-        <div class="copyRights">
-          <p>PADEL TENERIFE © 2018 · All Rights Reserved</P>
-        </div>
-        <div class="formulario">sadasd</div>
+    <div id="contacto">
+      <div class="social">
+        <a href="https://twitter.com/WorldPadelTour"><i class="fab fa-twitter fa-2x twitter"></i></a>
+        <a href="https://www.facebook.com/worldpadeltour/"><i class="fab fa-facebook-f fa-2x facebook"></i></a>
+        <a href="https://www.youtube.com/WorldPadelTour"><i class="fab fa-youtube fa-2x youtube"></i></a>
       </div>
-    </div>
+      <div class="copyRights">
+        <p>PADEL TENERIFE © 2018 · All Rights Reserved</P>
+      </div>
+      </div>
+      <div class="formulario">
+        <form name="formulario" method="post" action="http://pagina.com/send.php">
+          Nombre: <input type="text" name="nombre" placeholder="Nombre" required> Email: <input type="email" name="correo" placeholder="nombre@correo.com" required>
+          <br>
+          <strong>¿Que marca te gustaria que incluyeramos?: </strong>
+          <br> ASICS <input type="checkbox" name="marca"> VARLION <input type="checkbox" name="marca"> PRINCE <input type="checkbox" name="marca"> BLACK CROWN <input type="checkbox" name="marca"> SIUX <input type="checkbox" name="marca">
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
 
-  </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
-  <script src="js/scroll.min.js"></script>
-  <script src="js/index.js"></script>
+  </div>
+
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
+<script src="js/scroll.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 
 </html>
