@@ -3,10 +3,16 @@ $(document).ready(function () {
     AOS.init();
 });
 
-$(document).ready(function(){
-  $.cookieBar();
+$(document).ready(function() {
+  $.cookieBar({
+    message: 'Esta web utiliza cookies. ¿Acepta las condiciones de uso?.',
+    acceptButton: true,
+    acceptText: 'Acepto',
+    acceptFunction: null,
+    declineButton: true,
+    declineText: 'No acepto'
+  });
 });
-
 
 function mostrarProducto(elemento) {
     $('.nombreProduc > h1').html(elemento.name);
