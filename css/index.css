@@ -383,3 +383,11 @@ form{
   padding: 10px;
   border-color: darkgrey;
 }
+
+#cookie-bar {
+    position: fixed;
+    z-index: 9;
+    top: auto;
+    bottom: 0;
+    width: 100%;
+}
