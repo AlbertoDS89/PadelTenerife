@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://albertods89.github.io/PadelTenerife/sitemap.xml

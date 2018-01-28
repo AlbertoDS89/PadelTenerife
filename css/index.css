@@ -8,9 +8,6 @@ header {
     position: fixed;
     z-index: 5;
     justify-content: center;
-    border-bottom: solid;
-    border-color: white;
-    border-width: 3px;
     background-color: black;
     width: 100%;
 }
@@ -319,6 +316,11 @@ footer {
     height: 200px;
 }
 
+.contacto{
+  display: flex;
+  justify-content: center;
+}
+
 .social {
     text-align: center;
     padding-top: 70px;
@@ -370,4 +372,19 @@ footer {
   display: inline-flex;
   font-family: 'Jura';
   color: darkgrey;
+}
+
+
+form{
+  border: dashed 3px;
+  padding: 10px;
+  border-color: darkgrey;
+}
+
+#cookie-bar {
+    position: fixed;
+    z-index: 9;
+    top: auto;
+    bottom: 0;
+    width: 100%;
 }
