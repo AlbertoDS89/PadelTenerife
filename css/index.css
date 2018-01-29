@@ -45,9 +45,7 @@ nav a:hover {
     padding: 70px;
     justify-content: space-around;
     background-image: url("../imagenes/FondoDescripcion.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-
+    
 }
 
 .desc1 h1 {
