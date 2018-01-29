@@ -403,4 +403,7 @@ form{
   .prod1{
     margin-bottom: 20px;
   }
+  #caracteristicas{
+    flex-direction: column;
+  }
 }
