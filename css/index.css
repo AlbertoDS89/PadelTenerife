@@ -390,8 +390,17 @@ form{
 }
 
 
-@media screen and (max-width: 936px) {
+@media screen and (max-width: 1100px) {
   .desc2 img{
     display: none;
+  }
+  .desc1{
+    text-align: center;
+  }
+  #producto{
+    flex-direction: column;
+  }
+  .prod1{
+    margin-bottom: 20px;
   }
 }
