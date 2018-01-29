@@ -9,7 +9,9 @@ De todas maneras aun no esta terminada por lo que realmente no se podran comprar
 |--------|--------|--------|
 |  Code Pen      |  [https://codepen.io/AlbertoDS/#](https://codepen.io/AlbertoDS/#)      |   Plataforma donde trabajamos html css y javasrpip     |
 |   GitHub     |  [https://albertods89.github.io/PadelTenerife](https://albertods89.github.io/PadelTenerife)      |    Plataforma donde alojamos la pagina Web    |
-
+|   Mailchimp     |  [https://us17.admin.mailchimp.com/account/profile/](https://us17.admin.mailchimp.com/account/profile/)      |    Plataforma que nos registra los datos introducidos en el formulario    |
+|   GoogleAnalytics     |  [https://analytics.google.com/analytics/web/#embed/report-home/a112957656w168299935p168399332/](https://analytics.google.com/analytics/web/#embed/report-home/a112957656w168299935p168399332/)      |    Plataforma que nos registra los datos sobre el trafico de la web    |
+|   Search Console     |  [https://www.google.com/webmasters/tools/home?hl=es](https://www.google.com/webmasters/tools/home?hl=es)      |    Plataforma que nos ayuda en el posicionamiento en google    |
 
 ## Herramientas utilizadas
 | Descripcion | Enlace | Observaciones |

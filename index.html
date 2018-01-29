@@ -2,17 +2,26 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.1/css/all.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/css/swipebox.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/easy-autocomplete.themes.min.css">
+ <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+    #mc_embed_signup {
+      background: #fff;
+      clear: left;
+      font: 14px Helvetica, Arial, sans-serif;
+    }
+  </style>
   <link rel=stylesheet href="css/index.css">
   <link rel=stylesheet href="css/jquery.cookiebar.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
   <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
-  <meta charset="utf-8">
+
 
   <link rel="apple-touch-icon" sizes="180x180" href="imagenes/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="imagenes/favicon-32x32.png">
@@ -24,16 +33,23 @@
   <title>Padel Tenerife</title>
 
   <!-- Google Analytics -->
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-ga('create', 'UA-112957656-1', 'auto');
-ga('send', 'pageview');
-</script>
-<!-- End Google Analytics -->
+    ga('create', 'UA-112957656-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <!-- End Google Analytics -->
 
 </head>
 
@@ -104,12 +120,12 @@ ga('send', 'pageview');
   </div>
 
   <div id="producto">
-    <div class="prod1"><input id="buscador"/><img src="imagenes/lupa.png" alt=""></div>
+    <div class="prod1"><input id="buscador" /><img src="imagenes/lupa.png" alt=""></div>
     <div class="prod2">
       <div class="hoja-producto">
-      <div class="nombreProduc">
-        <h1>Selecciona tu producto</h1>
-      </div>
+        <div class="nombreProduc">
+          <h1>Selecciona tu producto</h1>
+        </div>
         <div class="info">
           <div id="foto-producto" class="lightbox">
             <a id="enlace-producto" href="#" class="swipebox">
@@ -160,23 +176,24 @@ ga('send', 'pageview');
   </div>
 
   <footer>
-  <div class="piePagina">
+    <div class="piePagina">
 
-    <div class="logoPie"></div>
+      <div class="logoPie"></div>
 
-    <div id="contacto">
-      <div class="social">
-        <a href="https://twitter.com/WorldPadelTour"><i class="fab fa-twitter fa-2x twitter"></i></a>
-        <a href="https://www.facebook.com/worldpadeltour/"><i class="fab fa-facebook-f fa-2x facebook"></i></a>
-        <a href="https://www.youtube.com/WorldPadelTour"><i class="fab fa-youtube fa-2x youtube"></i></a>
-      </div>
-      <div class="copyRights">
-        <p>PADEL TENERIFE © 2018 · All Rights Reserved</P>
-      </div>
+      <div id="contacto">
+        <div class="social">
+          <a href="https://twitter.com/WorldPadelTour"><i class="fab fa-twitter fa-2x twitter"></i></a>
+          <a href="https://www.facebook.com/worldpadeltour/"><i class="fab fa-facebook-f fa-2x facebook"></i></a>
+          <a href="https://www.youtube.com/WorldPadelTour"><i class="fab fa-youtube fa-2x youtube"></i></a>
+        </div>
+        <div class="copyRights">
+          <p>PADEL TENERIFE © 2018 · All Rights Reserved</P>
+        </div>
       </div>
       <div class="formulario">
-        <form name="formulario" method="post" action="http://pagina.com/send.php">
-          Nombre: <input type="text" name="nombre" placeholder="Nombre" required> Email: <input type="email" name="correo" placeholder="nombre@correo.com" required>
+        <!--<form name="formulario" method="post" action="http://pagina.com/send.php">
+          Nombre: <input type="text" name="nombre" placeholder="Nombre" required>
+          Email: <input type="email" name="correo" placeholder="nombre@correo.com" required>
           <br>
           <strong>¿Que marca te gustaria que incluyeramos?: </strong>
           <div class="marcas-padel">
@@ -187,19 +204,90 @@ ga('send', 'pageview');
                SIUX <input type="checkbox" name="marca">
              </div>
           <input id="enviarform" type="submit" value="Enviar">
+        </form>-->
+
+        <!-- Begin MailChimp Signup Form -->
+
+
+        <form action="https://github.us17.list-manage.com/subscribe/post?u=958130adb6f493a476a696193&amp;id=264dc25eee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+          <label for="mce-FNAME">Nombre: </label>
+          <input type="text" value="" name="FNAME" class="asterisk" id="mce-FNAME" required>
+
+          <label for="mce-EMAIL">Email: <span class="asterisk"></span></label>
+          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+
+          <div class="mc-field-group input-group marcas-padel">
+            <strong>¿Que marca te gustaria que incluyeramos?: </strong>
+              <br>
+
+              <input type="checkbox" value="1" name="group[7579][1]" id="mce-group[7579]-7579-0"><label for="mce-group[7579]-7579-0">ASICS</label>
+              <input type="checkbox" value="2" name="group[7579][2]" id="mce-group[7579]-7579-1"><label for="mce-group[7579]-7579-1">VARLION</label>
+              <input type="checkbox" value="4" name="group[7579][4]" id="mce-group[7579]-7579-2"><label for="mce-group[7579]-7579-2">PRINCE</label>
+              <input type="checkbox" value="8" name="group[7579][8]" id="mce-group[7579]-7579-3"><label for="mce-group[7579]-7579-3">BLACK CROWN</label>
+              <input type="checkbox" value="16" name="group[7579][16]" id="mce-group[7579]-7579-4"><label for="mce-group[7579]-7579-4">SIUX</label>
+
+          </div>
+
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>
+
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_958130adb6f493a476a696193_264dc25eee" tabindex="-1" value="">
+          </div>
+
+          <input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="button">
+
         </form>
       </div>
+    </div>
 
-  </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
+  <script src="js/scroll.min.js"></script>
+  <script src="js/jquery.cookiebar.js"></script>
+  <script src="js/index.js"></script>
 
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/easy-autocomplete/1.3.5/jquery.easy-autocomplete.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.swipebox/1.4.4/js/jquery.swipebox.min.js"></script>
-<script src="js/scroll.min.js"></script>
-<script src="js/jquery.cookiebar.js"></script>
-<script src="js/index.js"></script>
+  <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+  <script type='text/javascript'>
+    (function($) {
+      window.fnames = new Array();
+      window.ftypes = new Array();
+      fnames[0] = 'EMAIL';
+      ftypes[0] = 'email';
+      fnames[1] = 'FNAME';
+      ftypes[1] = 'text';
+      /*
+       * Translated default messages for the $ validation plugin.
+       * Locale: ES
+       */
+      $.extend($.validator.messages, {
+        required: "Este campo es obligatorio.",
+        remote: "Por favor, rellena este campo.",
+        email: "Por favor, escribe una dirección de correo válida",
+        url: "Por favor, escribe una URL válida.",
+        date: "Por favor, escribe una fecha válida.",
+        dateISO: "Por favor, escribe una fecha (ISO) válida.",
+        number: "Por favor, escribe un número entero válido.",
+        digits: "Por favor, escribe sólo dígitos.",
+        creditcard: "Por favor, escribe un número de tarjeta válido.",
+        equalTo: "Por favor, escribe el mismo valor de nuevo.",
+        accept: "Por favor, escribe un valor con una extensión aceptada.",
+        maxlength: $.validator.format("Por favor, no escribas más de {0} caracteres."),
+        minlength: $.validator.format("Por favor, no escribas menos de {0} caracteres."),
+        rangelength: $.validator.format("Por favor, escribe un valor entre {0} y {1} caracteres."),
+        range: $.validator.format("Por favor, escribe un valor entre {0} y {1}."),
+        max: $.validator.format("Por favor, escribe un valor menor o igual a {0}."),
+        min: $.validator.format("Por favor, escribe un valor mayor o igual a {0}.")
+      });
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
+  </script>
 </body>
 
 </html>
