@@ -404,6 +404,7 @@ form{
     margin-bottom: 20px;
   }
   #caracteristicas{
+    justify-content: space-around;
     flex-direction: column;
   }
 }
