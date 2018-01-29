@@ -21,7 +21,7 @@ De todas maneras aun no esta terminada por lo que realmente no se podran comprar
 |  Dillinger      |  [https://dillinger.io/](https://dillinger.io/)      |   Plataforma de texto Markdown donde hemos redactado este readme la diferencia con la anterior es que esta es online    |
 |  Google Fonts      |  [https://fonts.google.com/](https://fonts.google.com/)      |   Plataforma donde hemos descargado las fuentes de la web     |
 |  Caniuse      |  [https://caniuse.com/](https://caniuse.com/)      |   Plataforma donde comprobamos con que navegadores eran compatibles las diferentes funciones de html, css y javacript     |
-|  Editor de fotos      |  [https://](https://)      |   Plataforma donde editamos todas las imagenes para la web     |
+|  Pixlr      |  [https://pixlr.com/editor/](https://pixlr.com/editor/)      |   Plataforma donde editamos todas las imagenes para la web     |
 
 ## Boceto
 ![Boceto inicial](https://raw.githubusercontent.com/AlbertoDS89/PadelTenerife/master/Untitled%20Diagram.png)
@@ -35,7 +35,7 @@ De todas maneras aun no esta terminada por lo que realmente no se podran comprar
 |  Primebox      |  [https://www.primebox.co.uk/projects/jquery-cookiebar/](https://www.primebox.co.uk/projects/jquery-cookiebar/)      |   Biblioteca usada para el mensaje sobre la politica de cookies     |
 |  Aos      |  [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)      |   Biblioteca usada la introduccion de elementos al hacer scroll     |
 |  Swipebox      |  [http://brutaldesign.github.io/swipebox/](http://brutaldesign.github.io/swipebox/)      |   Biblioteca usada para seleccionar las imagenes de los productos y poder pasar de una imagen a otra     |
-Falta biblioteca de scroll de menu
+|  Anchor scrolling library      |  [http://playground.deaxon.com/js/anchor-scroll-demo/](http://playground.deaxon.com/js/anchor-scroll-demo/)      |   Biblioteca usada para hacer scroll al seleccionar una seccion en el menu     |
 
 ## Enlace a la Web
-[https://albertods89.github.io/PadelTenerife/](Pincha aqui)
+[Pincha aqui](https://albertods89.github.io/PadelTenerife/)

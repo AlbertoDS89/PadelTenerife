@@ -44,20 +44,22 @@ nav a:hover {
     display: flex;
     padding: 70px;
     justify-content: space-around;
-    background-image: url("../imagenes/FondoDescripcion.jpg");
+    background-image: url("../imagenes/fondoazul.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
 
 }
 
 .desc1 h1 {
     font-size: 50px;
     font-family: 'Monoton';
-    color: white;
+    color: black;
 }
 
 .desc1 p {
     font-size: 30px;
     font-family: 'Jura';
-    color: white;
+    color: black;
 }
 
 #caracteristicas {
