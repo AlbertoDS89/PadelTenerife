@@ -408,6 +408,22 @@ form{
   color: white;
 }
 
+.noDisponible{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-image: url("../imagenes/FondoDescripcion.jpg");
+}
+
+.gif{
+  padding: 30px;
+}
+
+.noDisponibleText p{
+  font-size: 18px;
+  font-family: 'Jura';
+  color: white;
+}
 
 @media screen and (max-width: 1300px) {
   .desc2 img{
