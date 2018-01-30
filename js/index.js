@@ -16,7 +16,7 @@ $(document).ready(function() {
     zindex: '9',
     policyButton: true,
     policyText: 'Leer más',
-    policyURL: 'https://albertods89.github.io/PadelTenerife/paginasadicionales/Pcookies.html'
+    policyURL: './paginasadicionales/Pcookies.html'
   });
 });
 
