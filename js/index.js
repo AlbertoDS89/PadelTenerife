@@ -25,7 +25,7 @@ function mostrarProducto(elemento) {
     $('.unidVend > p').html('<strong>Unidades Vendidas:</strong> ' + elemento.vendidas);
 
     if (elemento.enStock === true) {
-      $('.stock > p').html('<strong>En stock:</strong> Sí');
+      $('.stock > p').html('<a title="comprar" href="./paginasadicionales/comprar.html"><img src="./imagenes/comprar.png" alt="comprar" />');
     } else {
       $('.stock > p').html('<strong>En stock:</strong> No');
     }
