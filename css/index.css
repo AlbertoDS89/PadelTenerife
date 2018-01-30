@@ -382,6 +382,33 @@ form{
 }
 
 
+.politicasF{
+  background-image: url("../imagenes/FondoDescripcion.jpg");
+}
+
+.politicasT{
+  padding: 30px;
+}
+
+.politicasT h1{
+  font-size: 30px;
+  font-family: 'Monoton';
+  color: white;
+}
+
+.politicasT p{
+  font-size: 18px;
+  font-family: 'Jura';
+  color: white;
+}
+
+.politicasT ol{
+  font-size: 18px;
+  font-family: 'Jura';
+  color: white;
+}
+
+
 @media screen and (max-width: 1300px) {
   .desc2 img{
     display: none;
