@@ -10,7 +10,13 @@ $(document).ready(function() {
     acceptText: 'Acepto',
     acceptFunction: null,
     declineButton: true,
-    declineText: 'No acepto'
+    declineText: 'No acepto',
+    fixed: true,
+    bottom: true,
+    zindex: '9',
+    policyButton: true,
+    policyText: 'Leer más',
+    policyURL: 'https://albertods89.github.io/PadelTenerife/paginasadicionales/Pcookies.html'
   });
 });
 

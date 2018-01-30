@@ -381,14 +381,6 @@ form{
   border-color: darkgrey;
 }
 
-#cookie-bar {
-    position: fixed;
-    z-index: 9;
-    top: auto;
-    bottom: 0;
-    width: 100%;
-}
-
 
 @media screen and (max-width: 1300px) {
   .desc2 img{
