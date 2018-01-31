@@ -50,4 +50,4 @@ En esta última fase añadí las bibliotecas como el scroll del menú y todo lo 
 [Pincha aquí](https://albertods89.github.io/PadelTenerife/)
 
 ## ScreenShot Web
-![Boceto inicial](https://raw.githubusercontent.com/AlbertoDS89/PadelTenerife/master/Untitled%20Diagram.png)
+![ScreenShot](https://raw.githubusercontent.com/AlbertoDS89/PadelTenerife/master/imagenes/ScreenShotWeb.png)
